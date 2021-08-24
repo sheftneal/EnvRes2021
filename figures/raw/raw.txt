@@ -1,0 +1,1 @@
+scripts will write raw versions of the figures into this directory.
