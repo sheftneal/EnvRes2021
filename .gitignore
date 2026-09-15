@@ -1,0 +1,58 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# Local operating-system metadata
+.DS_Store
+
+# The California Vital Records analysis data cannot be redistributed and stay
+# excluded, along with any derived file that could contain or be linked back
+# to individual birth records. Public, non-restricted exposure inputs used to
+# build Figure 1 are committed directly; see DATA.md for provenance.
+/data/*
+!/data/ca_county_boundaries.rds
+!/data/fig1_smokefire/
+
+# Unedited secure-server working files retained locally for provenance. These
+# contain obsolete internal paths and are not part of the public release.
+/script/legacy/
+
+# Generated R exports. Keep the placeholder that documents the directory.
+/figures/raw/*
+!/figures/raw/raw.txt

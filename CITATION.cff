@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Analysis code for wildfire smoke exposure and preterm birth in California"
+type: software
+authors:
+  - family-names: Heft-Neal
+    given-names: Sam
+  - family-names: Driscoll
+    given-names: Anne
+  - family-names: Yang
+    given-names: Wei
+  - family-names: Shaw
+    given-names: Gary
+  - family-names: Burke
+    given-names: Marshall
+repository-code: "https://github.com/sheftneal/EnvRes2021"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Associations between wildfire smoke exposure during pregnancy and risk of preterm birth in California"
+  authors:
+    - family-names: Heft-Neal
+      given-names: Sam
+    - family-names: Driscoll
+      given-names: Anne
+    - family-names: Yang
+      given-names: Wei
+    - family-names: Shaw
+      given-names: Gary
+    - family-names: Burke
+      given-names: Marshall
+  journal: "Environmental Research"
+  volume: 203
+  year: 2022
+  doi: "10.1016/j.envres.2021.111872"
